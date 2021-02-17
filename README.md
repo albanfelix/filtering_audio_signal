@@ -19,7 +19,7 @@ b) re ́duction of the ripples in the pass-band : (Rp = 1 dB and ∆f = 20 Hz).
 
 # Rejection of one note by digital filtering
 The goal here is to eliminate a single note from the audio signal using IIR and FIR filters.
-1. Calculate using Matlab the digital filter of type Chebyshev 2 tha allows to eliminate e ́limine the note FA from the signal. We will retain the following specifications (fcl = 340 Hz, fch = 360 Hz, ∆fl = ∆fh = 10Hz,Rp =1dB,Rs =40dB)
+1. Calculate using Matlab the digital filter of type Chebyshev 2 that allows to eliminate e ́limine the note FA from the signal. We will retain the following specifications (fcl = 340 Hz, fch = 360 Hz, ∆fl = ∆fh = 10Hz,Rp =1dB,Rs =40dB)
 2. Draw on the same figure the filtered signal and its magnitude spectrum. We will restrict the frequencies to 1000 equidistant values between 250 Hz and 550 Hz,
 3. Do the same operations, as in the previous question, using a RIF filter having the lowest length (Kaiser window).
 4. Draw on the same figure the magnitude frequency responses (in decibels) of the RII et FIR filters. Give somme comment about the differences.
