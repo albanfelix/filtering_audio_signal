@@ -3,13 +3,12 @@ This script gives an example of filter synthesis and its application to an audio
 
 # Filtering of an audio signal
 Musical notes of a piano can be simulated numerically by assuming that each note corresponds to a pure sine signal with frequency value are given in table. A Matlab function gamme.m allowing to simulate a sequence of eight notes successively is given.
-Note Do Re Mi Fa Sol La Si Do (Frequency(Hz) 262 294 330 349 392 440 494 523)
+Note Do Re Mi Fa Sol La Si Do (Frequency(Hz) 262   294  330   349   392   440   494   523)
 Signal generation and analysis : Generate the signal and listen it. The duration is one second for each note and the sampling frequency is Fs = 8192 Hz. Plot the temporal signal and its spectrum in the same figure in two separate graphs (use subplot function).
 
 1.1 Analog low-pass filtering
 The goal here is to suppress the three last notes of the signal. The retained specifications are (Rp = 3 dB, Rs = 40 dB, fc = 420 Hz et ∆f = 100 Hz). In order to compare the four types of filters (Butterworth, Chabyshev de type 1 ou 2 et Cauer).
 
-1.2
 1. Calculate using Matlab the required ordre of each of the four filters. Which one is more advantageous ?
 2. Draw on the same graph the magnitude frequency responses (expressed in dB) of the four filter quatre filtres (use the function legend). Give comments regarding the difference between the filter an explain if the required specifications are satisfied.
 3. Apply the four filters to the audio signal. Listen the filter signal. Are all the notes suppressed ?
